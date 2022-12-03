@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"outFile": "../docs/pixel-canvas.libs.js",
+		"module": "AMD",
+		"target": "es2022",
+		"declaration": true,
+		"moduleResolution": "node",
+		"strictNullChecks": true,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": false,
+		"keyofStringsOnly": true,
+		"sourceMap": false
+	},
+	"include": [
+		"./browser.ts"
+	]
+}
